@@ -12,8 +12,8 @@ const App = props =>{
   return (
     <div className="App">
       <Menu />
-      <Pogger currPogger={props.poggers.HP_Pogger} typePogger={'player'}/>
-      <Pogger currPogger={props.poggers.DEF_Pogger} typePogger={'foe'}/>
+      <Pogger currPogger={props.poggers.ATK_Pogger} typePogger={'player'}/>
+      <Pogger currPogger={props.poggers.HP_Pogger} typePogger={'foe'}/>
       <TurnHandler />
     </div>
   );

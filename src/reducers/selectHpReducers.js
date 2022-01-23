@@ -26,7 +26,7 @@ export const selectedFoeHPReducer = ( foeCurrHP = poggerReducerObject().HP_Pogge
     }
 }
 
-export const selectedPlayerHPReducer = ( playerCurrHP = null, action ) =>{
+export const selectedPlayerHPReducer = ( playerCurrHP = poggerReducerObject().ATK_Pogger.hp, action ) =>{
     if ( !action ) {
         return null
     } else if ( action.type === 'ATTACK' && action.payload.currTurn === 'foe' ) {
