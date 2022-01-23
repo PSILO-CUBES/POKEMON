@@ -1,0 +1,57 @@
+.poggerContainer{
+    position: absolute;
+
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.sprite{
+    position: relative;
+    left: 50%;
+
+    transform: translate(-50%, -10%);
+
+    max-height: 350px;
+    max-width: 350px;
+
+    z-index: 2;
+}
+
+.statusContainer{
+    position: relative;
+    top: -100px;
+}
+
+.poggerName{
+    position: absolute;
+    top: -15px;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: large;
+}
+
+.turn{
+    position: absolute;
+    top: 25%;
+
+    transform: translate(-50%, -50%);
+
+    transition: ease-in-out 0.05s;
+
+    font-size: xx-large;
+    color: azure;
+}
+
+.endMessage{
+    position: absolute;
+    top: 25%;
+
+    transform: translate(-50%, -50%);
+
+    transition: ease-in-out 0.05s;
+
+    font-size: 5rem;
+    color: black;
+}

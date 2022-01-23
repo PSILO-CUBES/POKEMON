@@ -1,0 +1,20 @@
+.healthBarContainer{
+    border: solid rgba(0, 0, 0, 0.5) 1.4px;
+
+    height: 25px;
+    width: 500px;
+}
+
+.healthBar{
+    height: 100%;
+
+    transition: ease-out 1s;
+}
+
+.hpStat{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
